@@ -2,7 +2,7 @@ body {
   background-color: #9fe80f;
   font-family: sans-serif;
 }
-h1, h2, h3, h4, h5, h6, p, a {
+h1, h2, h3, h4, h5, h6, p {
   color: #46b8f4;
   text-align: center;
 }
@@ -88,4 +88,11 @@ h1, h2, h3, h4, h5, h6, p, a {
   background-color: #a73de9;
   color: white;
   text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #46b8f4;
+}
+a:hover {
+  text-decoration: underline;
 }
