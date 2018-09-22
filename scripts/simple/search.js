@@ -1,7 +1,7 @@
 /*
 Copy & Paste:
 
-currencyConvert("","",1)
+currencyConvert("","","1")
 */
 $(function(){
   var bar = $(".search");
@@ -26,42 +26,30 @@ $(function(){
       }
     } else if(bar.val() == "USD To EUR" || bar.val() == "USD To Euro" || bar.val() == "US Dollar To Euro" || bar.val() == "United States Dollar To Euro" || bar.val() == "United states dollar to euro" || bar.val() == "usd to eur" || bar.val() == "usd to euro" || bar.val() == "us dollar to euro" || bar.val() == "united states dollar to euro"){
       if(one.val() == ""){
-        one.append(currencyConvert("usd","eur",1));
+        one.append(currencyConvert("usd","eur","1"));
       } else if(one.val() == "<a href='https://www.unitconverters.net/'>Unit Converter</a>" || one.val() == "<p>Fluid Ounces in one Gallon: 128 fl oz</p>"){
-        one.replaceWith(currencyConvert("usd","eur",1));
+        one.replaceWith(currencyConvert("usd","eur","1"));
       }
     } else if(bar.val() == "USD To SGD" || bar.val() == "USD To Singapore Dollar" || bar.val() == "US Dollar To Singapore Dollar" || bar.val() == "United States Dollar To Singapore Dollar" || bar.val() == "United states dollar to singapore dollar" || bar.val() == "usd to sgd" || bar.val() == "usd to singapore dollar" || bar.val() == "us dollar to singapore dollar" || bar.val() == "united states dollar to singapore dollar"){
       if(one.val() == ""){
-        one.append(currencyConvert("usd","sgd",1));
+        one.append(currencyConvert("usd","sgd","1"));
       } else if(one.val() == "<a href='https://www.unitconverters.net/'>Unit Converter</a>" || one.val() == "<p>Fluid Ounces in one Gallon: 128 fl oz</p>"){
-        one.replaceWith(currencyConvert("usd","sgd",1));
+        one.replaceWith(currencyConvert("usd","sgd","1"));
       }
     }
     function currencyConvert(curr1, curr2, amount){
-      if(curr1 == "usd" && curr2 == "eur"){
-        var final = amount * 0.85;
-        var fstring = final.toString();
-        return results.html("<p>1 USD = " + fstring + " EUR.</p>");
-      } else if(curr1 == "usd" && curr2 == "gbp"){
-        var final = amount * 0.77;
-        var fstring = final.toString();
-        return results.html("<p>1 USD = " + fstring + " GBP.</p>");
-      } else if(curr1 == "usd" && curr2 == "inr"){
-        var final = amount * 72.33;
-        var fstring = final.toString();
-        return results.html("<p>1 USD = " + fstring + " INR.</p>");
-      } else if(curr1 == "usd" && curr2 == "cad"){
-        var final = amount * 1.29;
-        var fstring = final.toString();
-        return results.html("<p>1 USD = " + fstring + " CAD.</p>");
-      } else if(curr1 == "usd" && curr2 == "aud"){
-        var final = amount * 1.37;
-        var fstring = final.toString();
-        return results.html("<p>1 USD = " + fstring + " AUD.</p>");
-      } else if(curr1 == "usd" && curr2 == "sgd"){
-        var final = amount * 1.37;
-        var fstring = final.toString();
-        return results.html("<p>1 USD = " + fstring + " SGD.</p>");
+      if(curr1 == "usd" && curr2 == "eur" && amount == "1"){
+        return results.html("<p>1 USD = 0.85 EUR.</p>");
+      } else if(curr1 == "usd" && curr2 == "gbp" && amount == "1"){
+        return results.html("<p>1 USD = 0.76 GBP.</p>");
+      } else if(curr1 == "usd" && curr2 == "inr" && amount == "1"){
+        return results.html("<p>1 USD = 72.24 INR.</p>");
+      } else if(curr1 == "usd" && curr2 == "cad" && amount == "1"){
+        return results.html("<p>1 USD = 1.29 CAD.</p>");
+      } else if(curr1 == "usd" && curr2 == "aud" && amount == "1"){
+        return results.html("<p>1 USD = 1.37 AUD.</p>");
+      } else if(curr1 == "usd" && curr2 == "sgd" && amount == "1"){;
+        return results.html("<p>1 USD = 1.36 SGD.</p>");
       }
     };
   });
