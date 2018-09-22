@@ -35,27 +35,27 @@ $(function(){
       if(curr1 == "usd" && curr2 == "eur"){
         var final = amount * 0.85;
         var fstring = final.toString();
-        return this.html("<p>1 USD = " + fstring + " EUR.</p>");
+        return results.html("<p>1 USD = " + fstring + " EUR.</p>");
       } else if(curr1 == "usd" && curr2 == "gbp"){
         var final = amount * 0.77;
         var fstring = final.toString();
-        return this.html("<p>1 USD = " + fstring + " GBP.</p>");
+        return results.html("<p>1 USD = " + fstring + " GBP.</p>");
       } else if(curr1 == "usd" && curr2 == "inr"){
         var final = amount * 72.33;
         var fstring = final.toString();
-        return this.html("<p>1 USD = " + fstring + " INR.</p>");
+        return results.html("<p>1 USD = " + fstring + " INR.</p>");
       } else if(curr1 == "usd" && curr2 == "cad"){
         var final = amount * 1.29;
         var fstring = final.toString();
-        return this.html("<p>1 USD = " + fstring + " CAD.</p>");
+        return results.html("<p>1 USD = " + fstring + " CAD.</p>");
       } else if(curr1 == "usd" && curr2 == "aud"){
         var final = amount * 1.37;
         var fstring = final.toString();
-        return this.html("<p>1 USD = " + fstring + " AUD.</p>");
+        return results.html("<p>1 USD = " + fstring + " AUD.</p>");
       } else if(curr1 == "usd" && curr2 == "sgd"){
         var final = amount * 1.37;
         var fstring = final.toString();
-        return this.html("<p>1 USD = " + fstring + " SGD.</p>");
+        return results.html("<p>1 USD = " + fstring + " SGD.</p>");
       }
     };
   });
