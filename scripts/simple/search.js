@@ -11,6 +11,8 @@ $(function(){
       if(one.length == 0){
         if(one.val() == "Fluid Ounces in one Gallon: 128"){
           one.replaceWith("<a href='https://www.unitconverters.net/' id='result1'>Unit Converter</a><br>");
+        } else {
+          one.append("<a href='https://www.unitconverters.net/' id='result1'>Unit Converter</a><br>");
         }
       } else if(one.length > 0){
       	console.log("Element already exists.");
@@ -19,6 +21,8 @@ $(function(){
       if(one.length == 0){
         if(one.val() == "Unit Converter" && one.attr("href") == "https://www.unitconverters.net/"){
           one.replaceWith("<p id='result1'>Fluid Ounces in one Gallon: 128</p>");
+        } else {
+          one.append("<p id='result1'>Fluid Ounces in one Gallon: 128</p>");
         }
       } else if(one.length > 0){
       	console.log("Element already exists.");
