@@ -1,14 +1,22 @@
 $(function(){
   var bar = $(".search");
   var results = $("#results");
-  var aaaa = $("#result1").length;
+  var one = $("#result1");
+  var two = $("#result2");
+  var three = $("#result3");
+  var four = $("#result4");
+  var five = $("#result5");
   $(".submit").click(function(){
     if(bar.val() == "Unit Converter Websites" || bar.val() == "Unit Converter Website" || bar.val() == "Unit Converters" || bar.val() == "Unit Converter" || bar.val() == "Unit converter websites" || bar.val() == "Unit converter website" || bar.val() == "Unit converters" || bar.val() == "Unit converter" || bar.val() == "unit converter websites" || bar.val() == "unit converter website" || bar.val() == "unit converters" || bar.val() == "unit converter"){
-      if(aaaa == 0){
-        results.append("<a href='https://www.unitconverters.net/' id='result1'>Unit Converter</a><br>");
-      } else if(aaaa > 0){
+      if(one.length == 0){
+        if(one.val() == "Fluid Ounces in one Gallon: 128"){
+          one.replaceWith("<a href='https://www.unitconverters.net/' id='result1'>Unit Converter</a><br>");
+        }
+      } else if(one.length > 0){
       	console.log("Element already exists.");
       }
+    } else if(bar.val() == "How Many Fluid Ounces In A Gallon" || bar.val() == "How Many Fluid Ounces In One Gallon" || bar.val() == "How Many Ounces In A Gallon" || bar.val() == "How Many Ounces In One Gallon" || bar.val() == "How many fluid ounces in a gallon" || bar.val() == "How many fluid ounces in one gallon" || bar.val() == "How many ounces in a gallon" || bar.val() == "How many ounces in one gallon" || bar.val() == "how many fluid ounces in a gallon" || bar.val() == "how many fluid ounces in one gallon" || bar.val() == "how many ounces in a gallon" || bar.val() == "how many ounces in one gallon"){
+      
     }
   });
 });
