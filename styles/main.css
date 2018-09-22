@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6, p {
   border-radius: 4px;
   font-size: 16px;
   background-color: white;
-  background-image: url("/images/simple/search.png");
+  background-image: url("https://essentials-web.github.io/images/simple/search.png");
   background-size: 32px 32px;
   background-position: 10px 10px; 
   background-repeat: no-repeat;
@@ -81,13 +81,20 @@ h1, h2, h3, h4, h5, h6, p {
   transition: width 0.4s ease-in-out;
 }
 .search:focus {
-  width: 100%;
+  width: 80%;
   outline: none;
 }
 .submit {
   background-color: #a73de9;
   color: white;
   text-align: center;
+  border: none;
+  width: 60px;
+  height: 40px;
+  border-radius: 10px;
+}
+.submit:focus {
+  outline: none;
 }
 a {
   text-decoration: none;
