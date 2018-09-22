@@ -15,8 +15,14 @@ $(function(){
       } else if(one.length > 0){
       	console.log("Element already exists.");
       }
-    } else if(bar.val() == "How Many Fluid Ounces In A Gallon" || bar.val() == "How Many Fluid Ounces In One Gallon" || bar.val() == "How Many Ounces In A Gallon" || bar.val() == "How Many Ounces In One Gallon" || bar.val() == "How many fluid ounces in a gallon" || bar.val() == "How many fluid ounces in one gallon" || bar.val() == "How many ounces in a gallon" || bar.val() == "How many ounces in one gallon" || bar.val() == "how many fluid ounces in a gallon" || bar.val() == "how many fluid ounces in one gallon" || bar.val() == "how many ounces in a gallon" || bar.val() == "how many ounces in one gallon"){
-      
+    } else if(bar.val() == "How Many Fluid Ounces In A Gallon" || bar.val() == "How Many Fluid Ounces In One Gallon" || bar.val() == "How Many Ounces In A Gallon" || bar.val() == "How Many Ounces In One Gallon" || bar.val() == "How many fluid ounces in a gallon" || bar.val() == "How many fl oz in a gallon" || bar.val() == "Amount of fl oz in a gallon" || bar.val() == "How many fl oz in one gal" || bar.val() == "Amount of fl oz in one gal" || bar.val() == "fl oz in one gal" || bar.val() == "How many fluid ounces in one gallon" || bar.val() == "How many ounces in a gallon" || bar.val() == "How many ounces in one gallon" || bar.val() == "how many fluid ounces in a gallon" || bar.val() == "how many fluid ounces in one gallon" || bar.val() == "how many ounces in a gallon" || bar.val() == "how many ounces in one gallon"){
+      if(one.length == 0){
+        if(one.val() == "Unit Converter" && one.attr("href") == "https://www.unitconverters.net/"){
+          one.replaceWith("<p id='result1'>Fluid Ounces in one Gallon: 128</p>");
+        }
+      } else if(one.length > 0){
+      	console.log("Element already exists.");
+      }
     }
   });
 });
