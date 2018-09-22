@@ -1,12 +1,8 @@
-function search(){
-  var bar = document.getElementsByClassName("search").value;
-  var result1 = document.getElementById("result1");
-  var result2 = document.getElementById("result2");
-  var result3 = document.getElementById("result3");
-  var result4 = document.getElementById("result4");
-  var result5 = document.getElementById("result5");
-  if(bar == "Unit Converter Websites"){
-    result1.href = "https://www.unitconverters.net/";
-    result1.innerHTML = "Unit Converter";
-  }
-}
+$(function(){
+  var bar = $(".search");
+  $(".submit").click(function(){
+    if(bar.val() == "Unit Converter Websites" || bar.val() == "Unit Converter Website" || bar.val() == "Unit Converters" || bar.val() == "Unit Converter" || bar.val() == "Unit converter websites" || bar.val() == "Unit converter website" || bar.val() == "Unit converters" || bar.val() == "Unit converter" || bar.val() == "unit converter websites" || bar.val() == "unit converter website" || bar.val() == "unit converters" || bar.val() == "unit converter"){
+      $("#results").append("<a href='https://www.unitconverters.net/'>Unit Converter</a><br>");
+    }
+  });
+});
