@@ -1,4 +1,4 @@
-var dropdown = document.getElementsByClassName("dropdown-btn");
+var dropdown = document.getElementsByClassName("dropbtn");
 var i;
 
 for (i = 0; i < dropdown.length; i++) {
