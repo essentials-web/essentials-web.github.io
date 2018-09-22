@@ -1,8 +1,3 @@
-/*
-Copy & Paste:
-
-currencyConvert("","","1")
-*/
 $(function(){
   var bar = $(".search");
   var results = $("#results");
