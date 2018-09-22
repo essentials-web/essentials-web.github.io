@@ -31,7 +31,7 @@ $(function(){
         one.replaceWith(currencyConvert("usd","eur",1));
       }
     }
-    function currencyConvert = function(curr1, curr2, amount){
+    function currencyConvert(curr1, curr2, amount){
       if(curr1 == "usd" && curr2 == "eur"){
         var final = amount * 0.85;
         var fstring = final.toString();
