@@ -28,5 +28,20 @@ $(function(){
       	console.log("Element already exists.");
       }
     }
+    function currencyConvert(curr1, curr2, amount){
+      if(curr1 == "usd" && curr2 == "eur"){
+        return amount * 0.852493;
+      } else if(curr1 == "usd" && curr2 == "gbp"){
+        return amount * 0.765771;
+      } else if(curr1 == "usd" && curr2 == "inr"){
+        return amount * 72.3271;
+      } else if(curr1 == "usd" && curr2 == "cad"){
+        return amount * 1.29302;
+      } else if(curr1 == "usd" && curr2 == "aud"){
+        return amount * 1.37258;
+      } else if(curr1 == "usd" && curr2 == "sgd"){
+        return amount * 1.36628;
+      }
+    }
   });
 });
