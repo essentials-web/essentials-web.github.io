@@ -36,29 +36,29 @@ $(function(){
     }
     function currencyConvert(curr1, curr2, amount){
       if(curr1 == "usd" && curr2 == "eur" && amount == "1"){
-        return one.html("<p>1 USD = 0.85 EUR.</p>");
+        return one.html("<p id='res1'>1 USD = 0.85 EUR.</p>");
       } else if(curr1 == "usd" && curr2 == "gbp" && amount == "1"){
-        return one.html("<p>1 USD = 0.76 GBP.</p>");
+        return one.html("<p id='res1'>1 USD = 0.76 GBP.</p>");
       } else if(curr1 == "usd" && curr2 == "inr" && amount == "1"){
-        return one.html("<p>1 USD = 72.24 INR.</p>");
+        return one.html("<p id='res1'>1 USD = 72.24 INR.</p>");
       } else if(curr1 == "usd" && curr2 == "cad" && amount == "1"){
-        return one.html("<p>1 USD = 1.29 CAD.</p>");
+        return one.html("<p id='res1'>1 USD = 1.29 CAD.</p>");
       } else if(curr1 == "usd" && curr2 == "aud" && amount == "1"){
-        return one.html("<p>1 USD = 1.37 AUD.</p>");
+        return one.html("<p id='res1'>1 USD = 1.37 AUD.</p>");
       } else if(curr1 == "usd" && curr2 == "sgd" && amount == "1"){;
-        return one.html("<p>1 USD = 1.36 SGD.</p>");
+        return one.html("<p id='res1'>1 USD = 1.36 SGD.</p>");
       } else if(curr1 == "usd" && curr2 == "eur" && amount == "2"){
-        return one.html("<p>2 USD = 1.70 EUR.</p>");
+        return one.html("<p id='res1'>2 USD = 1.70 EUR.</p>");
       } else if(curr1 == "usd" && curr2 == "gbp" && amount == "2"){
-        return one.html("<p>2 USD = 1.52 GBP.</p>");
+        return one.html("<p id='res1'>2 USD = 1.52 GBP.</p>");
       } else if(curr1 == "usd" && curr2 == "inr" && amount == "2"){
-        return one.html("<p>2 USD = 144.48 INR.</p>");
+        return one.html("<p id='res1'>2 USD = 144.48 INR.</p>");
       } else if(curr1 == "usd" && curr2 == "cad" && amount == "2"){
-        return one.html("<p>2 USD = 2.59 CAD.</p>");
+        return one.html("<p id='res1'>2 USD = 2.59 CAD.</p>");
       } else if(curr1 == "usd" && curr2 == "aud" && amount == "2"){
-        return one.html("<p>2 USD = 2.74 AUD.</p>");
+        return one.html("<p id='res1'>2 USD = 2.74 AUD.</p>");
       } else if(curr1 == "usd" && curr2 == "sgd" && amount == "2"){;
-        return one.html("<p>2 USD = 2.73 SGD.</p>");
+        return one.html("<p id='res1'>2 USD = 2.73 SGD.</p>");
       }
     };
   });
