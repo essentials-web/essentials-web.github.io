@@ -57,9 +57,9 @@ $(function(){
         return one.html("<p id='res1'>2 USD = 2.59 CAD.</p>");
       } else if(curr1 == "usd" && curr2 == "aud" && amount == "2"){
         return one.html("<p id='res1'>2 USD = 2.74 AUD.</p>");
-      } else if(curr1 == "usd" && curr2 == "sgd" && amount == "2"){;
+      } else if(curr1 == "usd" && curr2 == "sgd" && amount == "2"){
         return one.html("<p id='res1'>2 USD = 2.73 SGD.</p>");
       }
-    };
+    }
   });
 });
