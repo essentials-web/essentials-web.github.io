@@ -230,6 +230,8 @@ $(function(){
         return one.html("<p id='res1'>1 Minute = 60 Seconds.</p>");
       } else if(unit1 == "year" && unit2 == "second" && amount == "1"){
         return one.html("<p id='res1'>1 Year = 31,556,952 Seconds.</p>");
+      } else if(unit1 == "year" && unit2 == "second" && amount == "2"){
+        return one.html("<p id='res1'>2 Years = 63,113,904 Seconds.</p>");
       } else if(unit1 == "century" && unit2 == "second" && amount == "1"){
         return one.html("<p id='res1'>1 Century = 3,155,695,200 Seconds.</p>");
       } else if(unit1 == "decade" && unit2 == "second" && amount == "1"){
