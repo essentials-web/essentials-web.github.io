@@ -46,6 +46,12 @@ $(function(){
     } else if(bar.val() == "3 Bytes To Kilobytes" || bar.val() == "3 Bytes to kilobytes" || bar.val() == "3 bytes to kilobytes" || bar.val() == "3 bytes to kb"){
       onea.remove();
       one.append(unitConvert("bytes","kilobytes","3"));
+    } else if(bar.val() == "4 Bytes To Kilobytes" || bar.val() == "4 Bytes to kilobytes" || bar.val() == "4 bytes to kilobytes" || bar.val() == "4 bytes to kb"){
+      onea.remove();
+      one.append(unitConvert("bytes","kilobytes","4"));
+    } else if(bar.val() == "5 Bytes To Kilobytes" || bar.val() == "5 Bytes to kilobytes" || bar.val() == "5 bytes to kilobytes" || bar.val() == "5 bytes to kb"){
+      onea.remove();
+      one.append(unitConvert("bytes","kilobytes","5"));
     } else if(bar.val() == "1 Gallon To Fluid Ounces" || bar.val() == "1 Gallon to fluid ounces" || bar.val() == "1 gallon to fluid ounces" || bar.val() == "1 gal to fl oz"){
       onea.remove();
       one.append(unitConvert("gallon","flounce","1"));
