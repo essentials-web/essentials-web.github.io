@@ -13,11 +13,7 @@ $(function(){
   var foura = $("#res4");
   var fivea = $("#res5");
   $clear.click(function(){
-    onea.remove();
-    twoa.remove();
-    threea.remove();
-    foura.remove();
-    fivea.remove();
+    one.html("");
   });
   $(".submit").click(function(){
     if(bar.val() == "USD To EUR" || bar.val() == "USD To Euro" || bar.val() == "US Dollar To Euro" || bar.val() == "United States Dollar To Euro" || bar.val() == "United states dollar to euro" || bar.val() == "usd to eur" || bar.val() == "usd to euro" || bar.val() == "us dollar to euro" || bar.val() == "united states dollar to euro"){
