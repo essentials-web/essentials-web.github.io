@@ -228,6 +228,18 @@ $(function(){
         return one.html("<p id='res1'>3 Pounds = 48 Ounces.</p>");
       } else if(unit1 == "pound" && unit2 == "ounce" && amount == "4"){
         return one.html("<p id='res1'>4 Pounds = 64 Ounces.</p>");
+      } else if(unit1 == "pound" && unit2 == "ounce" && amount == "5"){
+        return one.html("<p id='res1'>5 Pounds = 80 Ounces.</p>");
+      } else if(unit1 == "pound" && unit2 == "ounce" && amount == "6"){
+        return one.html("<p id='res1'>6 Pounds = 96 Ounces.</p>");
+      } else if(unit1 == "pound" && unit2 == "ounce" && amount == "7"){
+        return one.html("<p id='res1'>7 Pounds = 112 Ounces.</p>");
+      } else if(unit1 == "pound" && unit2 == "ounce" && amount == "8"){
+        return one.html("<p id='res1'>8 Pounds = 128 Ounces.</p>");
+      } else if(unit1 == "pound" && unit2 == "ounce" && amount == "9"){
+        return one.html("<p id='res1'>9 Pounds = 144 Ounces.</p>");
+      } else if(unit1 == "pound" && unit2 == "ounce" && amount == "10"){
+        return one.html("<p id='res1'>10 Pounds = 160 Ounces.</p>");
       } else if(unit1 == "ton" && unit2 == "ounce" && amount == "1"){
         return one.html("<p id='res1'>1 Ton = 32,000 Ounces.</p>");
       } else if(unit1 == "foot" && unit2 == "inch" && amount == "1"){
@@ -266,6 +278,14 @@ $(function(){
         return one.html("<p id='res1'>1 Hand = 1,016,000,000 Angstroms.</p>");
       } else if(unit1 == "hectometer" && unit2 == "angstrom" && amount == "1"){
         return one.html("<p id='res1'>1 Hectometer = 1,000,000,000,000 Angstroms.</p>");
+      } else if(unit1 == "fathom" && unit2 == "angstrom" && amount == "1"){
+        return one.html("<p id='res1'>1 Fathom = 18,288,000,000 Angstroms.</p>");
+      } else if(unit1 == "fathom" && unit2 == "angstrom" && amount == "2"){
+        return one.html("<p id='res1'>2 Fathoms = 36,576,000,000 Angstroms.</p>");
+      } else if(unit1 == "fathom" && unit2 == "angstrom" && amount == "3"){
+        return one.html("<p id='res1'>3 Fathoms = 54,864,000,000 Angstroms.</p>");
+      } else if(unit1 == "fathom" && unit2 == "angstrom" && amount == "4"){
+        return one.html("<p id='res1'>4 Fathoms = 73,152,000,000 Angstroms.</p>");
       }
     }
   });
