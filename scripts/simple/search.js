@@ -17,68 +17,32 @@ $(function(){
   });
   $(".submit").click(function(){
     if(bar.val() == "USD To EUR" || bar.val() == "USD To Euro" || bar.val() == "US Dollar To Euro" || bar.val() == "United States Dollar To Euro" || bar.val() == "United states dollar to euro" || bar.val() == "usd to eur" || bar.val() == "usd to euro" || bar.val() == "us dollar to euro" || bar.val() == "united states dollar to euro"){
-      if(one.val() === ""){
-        one.append(currencyConvert("usd","eur","1"));
-      } else if(one.val() == currencyConvert("usd","eur","2") || one.val() == unitConvert("bytes","kilobytes","1") || one.val() == unitConvert("gallon","flounce","1")){
-        onea.remove();
-        one.append(currencyConvert("usd","eur","1"));
-      }
+      onea.remove();
+      one.append(currencyConvert("usd","eur","1"));
     } else if(bar.val() == "USD To GBP" || bar.val() == "USD To Great British Pound" || bar.val() == "US Dollar To Great British Pound" || bar.val() == "United States Dollar To Great British Pound" || bar.val() == "United states dollar to great british pound" || bar.val() == "usd to gbp" || bar.val() == "usd to great british pound" || bar.val() == "us dollar to great british pound" || bar.val() == "united states dollar to great british pound"){
-      if(one.val() === ""){
-        one.append(currencyConvert("usd","gbp","1"));
-      } else if(one.val() == currencyConvert("usd","eur","1") || one.val() == currencyConvert("usd","eur","2") || one.val() == currencyConvert("usd","inr","1") || one.val() == currencyConvert("usd","aud","1") || one.val() == currencyConvert("usd","cad","1") || one.val() == currencyConvert("usd","sgd","1") || one.val() == unitConvert("bytes","kilobytes","1") || one.val() == unitConvert("gallon","flounce","1")){
-        onea.remove();
-        one.append(currencyConvert("usd","gbp","1"));
-      }
+      onea.remove();
+      one.append(currencyConvert("usd","gbp","1"));
     } else if(bar.val() == "USD To INR" || bar.val() == "USD To Indian Rupee" || bar.val() == "US Dollar To Indian Rupee" || bar.val() == "United States Dollar To Indian Rupee" || bar.val() == "United states dollar to indian rupee" || bar.val() == "usd to inr" || bar.val() == "usd to indian rupee" || bar.val() == "us dollar to indian rupee" || bar.val() == "united states dollar to indian rupee"){
-      if(one.val() === ""){
-        one.append(currencyConvert("usd","inr","1"));
-      } else if(one.val() == currencyConvert("usd","eur","2") || one.val() == currencyConvert("usd","eur","1") || one.val() == currencyConvert("usd","gbp","1") || one.val() == currencyConvert("usd","aud","1") || one.val() == currencyConvert("usd","cad","1") || one.val() == currencyConvert("usd","sgd","1") || one.val() == unitConvert("bytes","kilobytes","1") || one.val() == unitConvert("gallon","flounce","1")){
-        onea.remove();
-        one.append(currencyConvert("usd","inr","1"));
-      }
+      onea.remove();
+      one.append(currencyConvert("usd","inr","1"));
     } else if(bar.val() == "USD To CAD" || bar.val() == "USD To Canadian Dollar" || bar.val() == "US Dollar To Canadian Dollar" || bar.val() == "United States Dollar To Canadian Dollar" || bar.val() == "United states dollar to canadian dollar" || bar.val() == "usd to cad" || bar.val() == "usd to canadian dollar" || bar.val() == "us dollar to canadian dollar" || bar.val() == "united states dollar to canadian dollar"){
-      if(one.val() === ""){
-        one.append(currencyConvert("usd","cad","1"));
-      } else if(one.val() == currencyConvert("usd","eur","2") || one.val() == currencyConvert("usd","eur","1") || one.val() == currencyConvert("usd","gbp","1") || one.val() == currencyConvert("usd","inr","1") || one.val() == currencyConvert("usd","aud","1") || one.val() == currencyConvert("usd","sgd","1") || one.val() == unitConvert("bytes","kilobytes","1") || one.val() == unitConvert("gallon","flounce","1")){
-        onea.remove();
-        one.append(currencyConvert("usd","cad","1"));
-      }
+      onea.remove();
+      one.append(currencyConvert("usd","cad","1"));
     } else if(bar.val() == "USD To AUD" || bar.val() == "USD To Australian Dollar" || bar.val() == "US Dollar To Australian Dollar" || bar.val() == "United States Dollar To Australian Dollar" || bar.val() == "United states dollar to australian dollar" || bar.val() == "usd to aud" || bar.val() == "usd to australian dollar" || bar.val() == "us dollar to australian dollar" || bar.val() == "united states dollar to australian dollar"){
-      if(one.val() === ""){
-        one.append(currencyConvert("usd","aud","1"));
-      } else if(one.val() == currencyConvert("usd","eur","2") || one.val() == currencyConvert("usd","eur","1") || one.val() == currencyConvert("usd","gbp","1") || one.val() == currencyConvert("usd","inr","1") || one.val() == currencyConvert("usd","cad","1") || one.val() == currencyConvert("usd","sgd","1") || one.val() == unitConvert("bytes","kilobytes","1") || one.val() == unitConvert("gallon","flounce","1")){
-        onea.remove();
-        one.append(currencyConvert("usd","aud","1"));
-      }
+      onea.remove();
+      one.append(currencyConvert("usd","aud","1"));
     } else if(bar.val() == "USD To SGD" || bar.val() == "USD To Singaporean Dollar" || bar.val() == "US Dollar To Singaporean Dollar" || bar.val() == "United States Dollar To Singaporean Dollar" || bar.val() == "United states dollar to singaporean dollar" || bar.val() == "usd to sgd" || bar.val() == "usd to singaporean dollar" || bar.val() == "us dollar to singaporean dollar" || bar.val() == "united states dollar to singaporean dollar"){
-      if(one.val() === ""){
-        one.append(currencyConvert("usd","sgd","1"));
-      } else if(one.val() == currencyConvert("usd","eur","2") || one.val() == currencyConvert("usd","eur","1") || one.val() == currencyConvert("usd","gbp","1") || one.val() == currencyConvert("usd","inr","1") || one.val() == currencyConvert("usd","aud","1") || one.val() == currencyConvert("usd","cad","1") || one.val() == unitConvert("bytes","kilobytes","1") || one.val() == unitConvert("gallon","flounce","1")){
-        onea.remove();
-        one.append(currencyConvert("usd","sgd","1"));
-      }
+      onea.remove();
+      one.append(currencyConvert("usd","sgd","1"));
     } else if(bar.val() == "2 USD To EUR" || bar.val() == "2 USD To Euro" || bar.val() == "2 US Dollars To Euros" || bar.val() == "2 United States Dollars To Euros" || bar.val() == "2 United states dollars to euros" || bar.val() == "2 usd to eur" || bar.val() == "2 usd to euros" || bar.val() == "2 us dollars to euros" || bar.val() == "2 united states dollars to euros"){
-      if(one.val() === ""){
-        one.append(currencyConvert("usd","eur","2"));
-      } else if(one.val() == currencyConvert("usd","eur","1") || one.val() == currencyConvert("usd","gbp","1") || one.val() == currencyConvert("usd","inr","1") || one.val() == currencyConvert("usd","aud","1") || one.val() == currencyConvert("usd","cad","1") || one.val() == currencyConvert("usd","sgd","1") || one.val() == unitConvert("bytes","kilobytes","1") || one.val() == unitConvert("gallon","flounce","1")){
-        onea.remove();
-        one.append(currencyConvert("usd","eur","2"));
-      }
+      onea.remove();
+      one.append(currencyConvert("usd","eur","2"));
     } else if(bar.val() == "1 Byte To Kilobytes" || bar.val() == "1 Byte to kilobytes" || bar.val() == "1 byte to kilobytes" || bar.val() == "1 byte to kb"){
-      if(one.val() === ""){
-        one.append(unitConvert("bytes","kilobytes","1"));
-      } else if(one.val() == currencyConvert("usd","eur","1") || one.val() == currencyConvert("usd","gbp","1") || one.val() == currencyConvert("usd","inr","1") || one.val() == currencyConvert("usd","aud","1") || one.val() == currencyConvert("usd","cad","1") || one.val() == currencyConvert("usd","sgd","1") || one.val() == currencyConvert("usd","eur","2") || one.val() == unitConvert("gallon","flounce","1")){
-        onea.remove();
-        one.append(unitConvert("bytes","kilobytes","1"));
-      }
+      onea.remove();
+      one.append(unitConvert("bytes","kilobytes","1"));
     } else if(bar.val() == "1 Gallon To Fluid Ounces" || bar.val() == "1 Gallon to fluid ounces" || bar.val() == "1 gallon to fluid ounces" || bar.val() == "1 gal to fl oz"){
-      if(one.val() === ""){
-        one.append(unitConvert("gallon","flounce","1"));
-      } else if(one.val() == currencyConvert("usd","eur","1") || one.val() == currencyConvert("usd","gbp","1") || one.val() == currencyConvert("usd","inr","1") || one.val() == currencyConvert("usd","aud","1") || one.val() == currencyConvert("usd","cad","1") || one.val() == currencyConvert("usd","sgd","1") || one.val() == currencyConvert("usd","eur","2") || one.val() == unitConvert("bytes","kilobytes","1")){
-        onea.remove();
-        one.append(unitConvert("gallon","flounce","1"));
-      }
+      onea.remove();
+      one.append(unitConvert("gallon","flounce","1"));
     }
     function currencyConvert(curr1, curr2, amount){
       if(curr1 == "usd" && curr2 == "eur" && amount == "1"){
