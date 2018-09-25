@@ -37,6 +37,12 @@ $(function(){
     } else if(bar.val() == "2 USD To EUR" || bar.val() == "2 USD To Euro" || bar.val() == "2 US Dollars To Euros" || bar.val() == "2 United States Dollars To Euros" || bar.val() == "2 United states dollars to euros" || bar.val() == "2 usd to eur" || bar.val() == "2 usd to euros" || bar.val() == "2 us dollars to euros" || bar.val() == "2 united states dollars to euros"){
       onea.remove();
       one.append(currencyConvert("usd","eur","2"));
+    } else if(bar.val() == "2 USD To GBP" || bar.val() == "2 USD To Great British Pounds" || bar.val() == "2 US Dollars To Great British Pounds" || bar.val() == "2 United States Dollars To Great British Pounds" || bar.val() == "2 United states dollars to great british pounds" || bar.val() == "2 usd to gbp" || bar.val() == "2 usd to great british pounds" || bar.val() == "2 us dollars to great british pounds" || bar.val() == "2 united states dollars to great british pounds"){
+      onea.remove();
+      one.append(currencyConvert("usd","gbp","2"));
+    } else if(bar.val() == "3 USD To GBP" || bar.val() == "3 USD To Great British Pounds" || bar.val() == "3 US Dollars To Great British Pounds" || bar.val() == "3 United States Dollars To Great British Pounds" || bar.val() == "3 United states dollars to great british pounds" || bar.val() == "3 usd to gbp" || bar.val() == "3 usd to great british pounds" || bar.val() == "3 us dollars to great british pounds" || bar.val() == "3 united states dollars to great british pounds"){
+      onea.remove();
+      one.append(currencyConvert("usd","gbp","3"));
     } else if(bar.val() == "1 Byte To Kilobytes" || bar.val() == "1 Byte to kilobytes" || bar.val() == "1 byte to kilobytes" || bar.val() == "1 byte to kb"){
       onea.remove();
       one.append(unitConvert("bytes","kilobytes","1"));
