@@ -222,6 +222,12 @@ $(function(){
         return one.html("<p id='res1'>20 Gallons = 2,560 Fluid Ounces.</p>");
       } else if(unit1 == "pound" && unit2 == "ounce" && amount == "1"){
         return one.html("<p id='res1'>1 Pound = 16 Ounces.</p>");
+      } else if(unit1 == "pound" && unit2 == "ounce" && amount == "2"){
+        return one.html("<p id='res1'>2 Pounds = 32 Ounces.</p>");
+      } else if(unit1 == "pound" && unit2 == "ounce" && amount == "3"){
+        return one.html("<p id='res1'>3 Pounds = 48 Ounces.</p>");
+      } else if(unit1 == "pound" && unit2 == "ounce" && amount == "4"){
+        return one.html("<p id='res1'>4 Pounds = 64 Ounces.</p>");
       } else if(unit1 == "ton" && unit2 == "ounce" && amount == "1"){
         return one.html("<p id='res1'>1 Ton = 32,000 Ounces.</p>");
       } else if(unit1 == "foot" && unit2 == "inch" && amount == "1"){
